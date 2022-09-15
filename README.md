@@ -1,3 +1,3 @@
-#Assignment 10 of Soo.
+# Assignment 10 of Soo.
 
-CSS got so much better!
+HTML & CSS are so much fun!
