@@ -1,16 +1,15 @@
 .status-bar {
-  position: fixed;
+  position: sticky;
   top: 0px;
   width: 100%;
-  height: 50px;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5px 0px;
+  box-sizing: border-box;
 }
-.status-bar__column {
-  margin: 0px 10px;
-}
+
 .status-bar__column:first-child {
   width: 10%;
 }
@@ -20,10 +19,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
   color: var(--darkblue);
   font-weight: 600;
-  font-size: 25px;
+  font-size: 20px;
 }
 .status-bar__column:last-child {
   width: 10%;

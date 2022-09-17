@@ -134,3 +134,7 @@ li {
 ul {
   padding: 0px;
 }
+a {
+  text-decoration-line: none;
+  color: black;
+}

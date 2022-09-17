@@ -1,0 +1,10 @@
+.calendar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.calendar img {
+  width: 90%;
+  margin: 10px;
+  object-fit: cover;
+}

@@ -1,18 +1,24 @@
 .nav {
-  width: 80%;
-  height: 40px;
+  position: fixed;
+  bottom: 0;
+  margin: 10px 0px;
+  width: 90%;
   background-color: var(--darkblue);
   border: 0px solid var(--darkblue);
   border-radius: 20px;
+  align-items: center;
 }
 .nav__ul {
   width: 100%;
+  height: 40px;
   display: flex;
   justify-content: space-between;
-}
-.nav__btn {
-  padding: 10px 20px;
+  padding: 0px 50px;
+  box-sizing: border-box;
+  align-items: center;
 }
 .nav__link {
   color: white;
+  padding: 5px 0px;
+  box-sizing: border-box;
 }
