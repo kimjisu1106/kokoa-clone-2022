@@ -1,0 +1,25 @@
+.schedule {
+  width: 80%;
+  height: 50%;
+  margin-bottom: 40px;
+}
+.schedule__btn {
+  display: flex;
+}
+
+.schedule__item {
+  width: 100%;
+  display: flex;
+}
+.schedule__item img {
+  width: 40%;
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+.schedule__text {
+  width: 60%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

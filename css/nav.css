@@ -1,0 +1,18 @@
+.nav {
+  width: 80%;
+  height: 40px;
+  background-color: var(--darkblue);
+  border: 0px solid var(--darkblue);
+  border-radius: 20px;
+}
+.nav__ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__btn {
+  padding: 10px 20px;
+}
+.nav__link {
+  color: white;
+}
