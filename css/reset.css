@@ -138,3 +138,6 @@ a {
   text-decoration-line: none;
   color: black;
 }
+input:focus {
+  outline: none;
+}
