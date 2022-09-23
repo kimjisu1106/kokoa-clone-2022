@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px var(--horizontal-size);
+}
+
+.header__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.header__tool i {
+  margin-left: 20px;
+}
+
+.notice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.03);
+  height: 50px;
+}
+
+.notice i {
+  margin: 0px 10px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.channel {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 10px var(--horizontal-size);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  color: gray;
+}

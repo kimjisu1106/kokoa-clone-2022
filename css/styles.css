@@ -4,9 +4,11 @@
 /* component */
 @import "component/status-bar.css";
 @import "component/nav.css";
+@import "component/user-component.css";
 
 /* screen */
 @import "screen/index.css";
+@import "screen/friends.css";
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
