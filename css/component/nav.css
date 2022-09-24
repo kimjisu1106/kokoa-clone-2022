@@ -4,7 +4,7 @@
   bottom: 0px;
   padding: 10px var(--horizontal-size);
   box-sizing: border-box;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid var(--border-gray);
 }
 
 .nav__ul {
@@ -15,7 +15,7 @@
 }
 
 .nav__ul i {
-  color: var(--gray);
+  color: var(--text-gray);
 }
 
 .nav__friends {

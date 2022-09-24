@@ -48,7 +48,7 @@
 }
 
 .login-form__input:nth-child(-n + 2) {
-  border-bottom: 1px solid var(--gray);
+  border-bottom: 1px solid var(--border-gray);
 }
 
 .login-form__input:nth-child(2) {

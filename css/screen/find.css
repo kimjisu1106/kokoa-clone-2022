@@ -1,0 +1,95 @@
+.find__ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  border-bottom: 1px solid var(--border-gray);
+}
+
+.find__link {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.find__link i {
+  margin-bottom: 30px;
+}
+
+.find__link span {
+  font-weight: 300;
+}
+.find__section-header {
+  color: var(--text-gray);
+}
+.find__recommended-friends {
+  border-bottom: 1px solid var(--border-gray);
+}
+
+.find__recommended-friends__column span {
+  display: block;
+  font-size: 18px;
+  color: var(--text-gray);
+  margin: 110px 80px;
+  text-align: center;
+}
+
+.find__open-chat__title {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+
+.find__open-chat__title i {
+  margin-left: 5px;
+}
+
+.find__open-chat__column {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.find__open-chat__column__description {
+  display: flex;
+  flex-direction: column;
+}
+
+.find__open-chat__column__description h3:first-child {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.find__open-chat__column__description h3:nth-child(2) {
+  font-size: 18px;
+  color: var(--text-gray);
+}
+
+.find__open-chat__members {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.find__open-chat__members img {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.find__open-chat__members-count {
+  color: var(--text-gray);
+}
+
+.find__open-chat__members-status {
+  color: rgb(255, 0, 234);
+}
+
+.find__open-chat__members .divider {
+  width: 1px;
+  height: 15px;
+  margin: 0px 5px;
+  background-color: var(--text-gray);
+}
