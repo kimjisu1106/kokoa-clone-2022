@@ -27,11 +27,21 @@
   color: rgba(0, 0, 0, 0.2);
 }
 
-.channel {
+.friends-section {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  margin: 15px 0px 20px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.friends-section__title {
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
   color: gray;
+  margin-bottom: 10px;
+}
+
+.friends-section__title h5 {
+  font-weight: 300;
 }
