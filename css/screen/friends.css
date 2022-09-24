@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 15px var(--horizontal-size);
+  margin-top: 15px;
 }
 
 .header__title {
@@ -14,6 +14,7 @@
 }
 
 .notice {
+  margin-top: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +29,7 @@
 
 .channel {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  margin: 10px var(--horizontal-size);
+  margin: 15px 0px 20px;
   display: flex;
   justify-content: space-between;
   padding-top: 10px;

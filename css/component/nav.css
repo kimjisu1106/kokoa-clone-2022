@@ -14,42 +14,17 @@
   margin: 15px 30px;
 }
 
-.nav__chats {
+.nav__friends {
   position: relative;
 }
 
-.nav__chats span {
-  position: absolute;
-  bottom: 8px;
-  left: 13px;
-  width: 18px;
-  height: 18px;
-  border: 0px solid tomato;
-  border-radius: 50%;
-  background-color: tomato;
-  font-size: 12px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.nav__chats {
+  position: relative;
+}
+.nav__find {
+  position: relative;
 }
 
 .nav__more {
   position: relative;
-}
-
-.nav__more span {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  width: 5px;
-  height: 5px;
-  border: 0px solid tomato;
-  border-radius: 50%;
-  background-color: tomato;
-  font-size: 12px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
