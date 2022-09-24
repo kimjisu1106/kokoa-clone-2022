@@ -38,6 +38,14 @@
   color: var(--darkblue);
 }
 
-.nav__notification {
+.nav__notification-lg {
   position: absolute;
+  bottom: 8px;
+  left: 13px;
+}
+
+.nav__notification-sm {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }

@@ -1,6 +1,4 @@
-.badge__lg {
-  bottom: 8px;
-  left: 13px;
+.badge-lg {
   width: 18px;
   height: 18px;
   border: 0px solid tomato;
@@ -13,9 +11,7 @@
   align-items: center;
 }
 
-.badge__sm {
-  bottom: 20px;
-  left: 20px;
+.badge-sm {
   width: 5px;
   height: 5px;
   border: 0px solid tomato;

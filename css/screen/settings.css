@@ -1,0 +1,32 @@
+.settings {
+  margin-top: var(--horizontal-size);
+}
+
+.settings__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0px;
+  font-size: 22px;
+}
+
+.settings__title i {
+  margin-right: 20px;
+}
+
+.settings__title .badge-lg {
+  margin-left: 10px;
+}
+
+.settings__title {
+  display: flex;
+  align-items: center;
+}
+
+.settings__sub-title {
+  color: var(--text-gray);
+}
+
+.settings__link:nth-child(3) {
+  border-bottom: 1px solid var(--border-gray);
+}
