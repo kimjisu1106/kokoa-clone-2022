@@ -1,5 +1,6 @@
 .main-screen {
   margin: 0px var(--horizontal-size);
+  position: relative;
 }
 
 .margin-top__30more {
