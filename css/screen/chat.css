@@ -37,7 +37,7 @@
 .message-row {
   width: 100%;
   display: flex;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .message-row img {
@@ -99,4 +99,56 @@
 .input-form {
   background-color: white;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.input-form__column {
+  width: 35px;
+  height: 35px;
+  font-size: 30px;
+  color: var(--text-gray);
+  margin: 0px 15px;
+  padding-top: 5px;
+}
+
+.input-form__input {
+  width: 90%;
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+  border: 1px solid var(--border-gray);
+  border-radius: 20px;
+}
+
+.input-form__input input {
+  margin: 5px;
+  border: none;
+  width: 80%;
+  height: 20px;
+  font-size: 16px;
+  padding: 0px 15px;
+  box-sizing: border-box;
+}
+
+.input-form__input > i {
+  font-size: 25px;
+  margin-right: 10px;
+  color: var(--text-gray);
+}
+
+.input-form__input button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  font-size: 20px;
+  margin-right: 2px;
 }

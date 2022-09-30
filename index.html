@@ -1,49 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css" class="css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" class="css" />
     <title>Kokoa Clone-Welcome</title>
-</head>
-<body>
+  </head>
+  <body id="index__body">
     <div class="status-bar">
-        <div class="status-bar__row">
-            <span>No Service</span>
-            <i class="fas fa-wifi"></i>
-        </div>
-        <div class="status-bar__row">
-            <span>11:06</span>
-        </div>
-        <div class="status-bar__row">
-            <i class="fas fa-redo-alt"></i>
-            <span>11%</span>
-            <i class="fas fa-battery-quarter fa-lg"></i>
-            <i class="fas fa-bolt"></i>
-        </div>
+      <div class="status-bar__row">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__row">
+        <span>11:06</span>
+      </div>
+      <div class="status-bar__row">
+        <i class="fas fa-redo-alt"></i>
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
     </div>
     <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to KokoaClone</h1>
-        <span class="welcome-header__sub-title">If you have a Kokoa Account,</span>
-        <span class="welcome-header__sub-title">log in with your email or phone number.</span>
+      <h1 class="welcome-header__title">Welcome to KokoaClone</h1>
+      <span class="welcome-header__sub-title"
+        >If you have a Kokoa Account,</span
+      >
+      <span class="welcome-header__sub-title"
+        >log in with your email or phone number.</span
+      >
     </header>
     <form action="friends.html" method="get" class="login-form">
-        <div class="login-form__column">
-            <input name="id" class="login-form__input login-form__default" type="text" placeholder="Email or phone number" />
-            <input name="password" class="login-form__input login-form__default" type="password" placeholder="Password" />
-            <a href="#">
-                <input class="login-form__btn login-form__default" type="submit" value="Log In" />
-            </a>
-        </div>
-        <div class="signup-form__column">
-            <input class="signup-form__btn login-form__default" id="signup-btn" type="button" value="Sign Up" />
-        </div>
-        <a href="#">Find Kokoa Account or Password</a>
+      <div class="login-form__column">
+        <input
+          name="id"
+          class="login-form__input login-form__default"
+          type="text"
+          placeholder="Email or phone number"
+        />
+        <input
+          name="password"
+          class="login-form__input login-form__default"
+          type="password"
+          placeholder="Password"
+        />
+        <a href="#">
+          <input
+            class="login-form__btn login-form__default"
+            type="submit"
+            value="Log In"
+          />
+        </a>
+      </div>
+      <div class="signup-form__column">
+        <input
+          class="signup-form__btn login-form__default"
+          id="signup-btn"
+          type="button"
+          value="Sign Up"
+        />
+      </div>
+      <a href="#">Find Kokoa Account or Password</a>
     </form>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
-      crossorigin="anonymous">
-    </script>
-</body>
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

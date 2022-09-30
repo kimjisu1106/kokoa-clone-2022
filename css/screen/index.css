@@ -1,3 +1,8 @@
+#index__body {
+  width: 100vw;
+  height: 100vh;
+}
+
 .welcome-header {
   margin: 80px 0px;
   display: flex;
