@@ -119,3 +119,7 @@
   top: 80px;
   right: 5px;
 }
+
+.find__open-chat__column:last-child {
+  padding-bottom: 70px;
+}
