@@ -1,5 +1,10 @@
+#settings__body {
+  width: 100vw;
+  height: 100vh;
+}
+
 .settings {
-  margin-top: var(--horizontal-size);
+  margin-top: 50px;
 }
 
 .settings__link {

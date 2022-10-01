@@ -1,6 +1,9 @@
 .main-screen {
-  margin: 0px var(--horizontal-size);
+  width: 100vw;
+  padding: 0px var(--horizontal-size);
+  box-sizing: border-box;
   position: relative;
+  top: 50px;
 }
 
 .margin-top__30more {
