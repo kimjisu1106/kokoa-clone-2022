@@ -1,3 +1,13 @@
+@keyframes hideSplashScreen {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+    visibility: hidden;
+  }
+}
+
 .notice {
   margin-top: 15px;
   display: flex;
@@ -29,4 +39,25 @@
 
 .friends-section__title h5 {
   font-weight: 300;
+}
+
+#splash-screen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  animation: hideSplashScreen 1s forwards;
+  animation-delay: 1s;
+}
+
+#splash-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  background-color: var(--yellow);
 }

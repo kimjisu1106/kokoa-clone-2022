@@ -9,6 +9,7 @@
 @import "component/main-screen.css";
 @import "component/screen-header.css";
 @import "component/alt-header.css";
+@import "component/no-mobile.css";
 
 /* screen */
 @import "screen/index.css";
@@ -23,5 +24,4 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   width: 100vw;
   height: 100vh;
-  position: relative;
 }

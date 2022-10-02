@@ -21,6 +21,8 @@
 .alt-header__column:first-child {
   display: flex;
   justify-content: flex-start;
+  padding-left: var(--horizontal-size);
+  box-sizing: border-box;
 }
 
 .alt-header__column:nth-child(2) {
@@ -31,4 +33,10 @@
 .alt-header__column:last-child {
   display: flex;
   justify-content: flex-end;
+  padding-right: var(--horizontal-size);
+  box-sizing: border-box;
+}
+
+.alt-header__column:last-child > i {
+  margin-left: 15px;
 }
