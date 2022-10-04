@@ -1,14 +1,23 @@
 .screen-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 15px;
 }
 
 .screen-header__title {
-  font-size: 30px;
+  width: 65%;
+  font-size: 2em;
   font-weight: 600;
 }
 
+.screen-header__tool {
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+}
 .screen-header__tool i {
-  margin-left: 20px;
+  font-size: 1em;
+  padding-left: 1em;
+  box-sizing: border-box;
 }

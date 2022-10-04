@@ -10,9 +10,15 @@
 
 .status-bar__row {
   width: 33%;
-  margin: 10px;
+  margin-top: 10px;
+  font-size: 0.8em;
 }
 
+.status-bar__row:first-child {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
 .status-bar__row:first-child span {
   margin-right: 5px;
 }
@@ -20,11 +26,14 @@
 .status-bar__row:nth-child(2) {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .status-bar__row:last-child {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
 }
 
 .status-bar__row:last-child i {
