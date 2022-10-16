@@ -129,6 +129,24 @@ main div:nth-child(4) {
   position: fixed;
   bottom: 0;
   width: 100%;
+  transition: all 1s ease-in-out;
+}
+
+.input-form:focus-within .input-form__column,
+.input-form:focus-within .fa-smile,
+.input-form:focus-within .input-form__button {
+  opacity: 0;
+}
+
+.input-form:focus-within .input-form__input {
+  width: 95vw;
+  transform: translateX(-40px);
+}
+
+.input-form:focus-within input {
+  width: 90vw;
+  margin-left: 30px;
+  transform: translateX(-30px);
 }
 
 .input-form__column {
@@ -138,6 +156,7 @@ main div:nth-child(4) {
   color: var(--text-gray);
   margin: 0px 15px;
   padding-top: 5px;
+  transition: all 1s ease-in-out;
 }
 
 .input-form__input {
@@ -149,6 +168,7 @@ main div:nth-child(4) {
   margin-right: 15px;
   border: 1px solid var(--border-gray);
   border-radius: 20px;
+  transition: all 1s ease-in-out;
 }
 
 .input-form__input input {
@@ -159,15 +179,17 @@ main div:nth-child(4) {
   font-size: 16px;
   padding: 0px 15px;
   box-sizing: border-box;
+  transition: all 1s ease-in-out;
 }
 
 .input-form__input > i {
   font-size: 25px;
   margin-right: 10px;
   color: var(--text-gray);
+  transition: all 1s ease-in-out;
 }
 
-.input-form__input button {
+.input-form__button {
   width: 35px;
   height: 35px;
   border: none;
@@ -175,4 +197,5 @@ main div:nth-child(4) {
   border-radius: 50%;
   font-size: 20px;
   margin-right: 2px;
+  transition: all 1s ease-in-out;
 }

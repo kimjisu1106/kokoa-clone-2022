@@ -24,4 +24,5 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }

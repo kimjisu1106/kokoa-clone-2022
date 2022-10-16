@@ -47,5 +47,15 @@
 .nav__notification-sm {
   position: absolute;
   bottom: 20px;
-  left: 20px;
+  right: -10px;
+  animation: twinkle 1s infinite;
+  opacity: 0;
+}
+
+@keyframes twinkle {
+  from {
+  }
+  to {
+    opacity: 1;
+  }
 }
